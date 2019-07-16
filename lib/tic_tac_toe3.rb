@@ -120,7 +120,6 @@ def winner(board)
 end
 
 def play(board)
-  play_again = "Y"
   until over?(board)
     turn(board)
   end
